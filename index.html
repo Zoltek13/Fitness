@@ -81,7 +81,15 @@
          <div class="header__content">
             <div class="header__item">
                <a href="#" class="header__logo" aria-label="logo">
-	     	  <img src="img/header/logo.png" alt="">
+                  <picture>
+                     <source media="(min-width: 991.98px)" srcset="img/header/logo.webp" type="image/webp">
+                     <source media="(min-width: 320px)" srcset="img/header/logo_mobile.webp" type="image/webp">
+
+                     <source media="(min-width: 991.99px)" srcset="img/header/logo.jpg" type="image/jpg">
+                     <source media="(min-width: 320px)" srcset="img/header/logo_mobile.jpg" type="image/jpg">
+
+                     <img src="img/header/logo.png" alt="">
+                  </picture>
                </a>
                <div class="header__menu menu">
                   <nav class="menu__body">
@@ -109,13 +117,8 @@
          <section class="intro">
             <div class="intro__bg img-bg">
                <picture>
-                  <!-- <source media="(min-width: 991.98px)" srcset="img/intro/intro_bg.webp" type="image/webp">
-                  <source media="(min-width: 320px)" srcset="img/intro/intro_bg_medium.webp" type="image/webp">
-
-                  <source media="(min-width: 991.99px)" srcset="img/intro/intro_bg.jpg" type="image/jpg">
-                  <source media="(min-width: 320px)" srcset="img/intro/intro_bg_medium.jpg" type="image/jpg"> -->
-
-                  <img src="img/intro/intro_bg.jpg" alt="logo background">
+                  <source srcset="img/intro/intro_bg.webp" type="image/webp"><img src="img/intro/intro_bg.jpg"
+                     alt="logo background">
                </picture>
             </div>
             <div class="container">
@@ -126,7 +129,6 @@
                   <div class="intro__subtitle">Lorem ipsum dolor sit amet, consectetur</div>
                   <a href="#" class="intro__btn btn">Get in touch</a>
                </div>
-
             </div>
          </section>
          <section class="wellcome">
