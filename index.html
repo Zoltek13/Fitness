@@ -6,7 +6,7 @@
    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon.png">
    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-<!--    <link rel="manifest" href="img/Favicon/site.webmanifest"> -->
+   <!-- <link rel="manifest" href="img/Favicon/site.webmanifest"> -->
    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
    <meta name="Description" content="Fitness">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,6 +76,13 @@
 			C262.4,509.12,276.352,512,299.808,512c20.576,0,39.808-1.952,57.408-6.272c17.632-4,36.8-10.08,58.816-20.352v-76.96
 			C390.304,425.216,374.784,428.544,348.832,428.544z" />
          </symbol>
+         <symbol id="up-arrow" viewBox="0 0 492.002 492.002">
+            <path d="M484.136,328.473L264.988,109.329c-5.064-5.064-11.816-7.844-19.172-7.844c-7.208,0-13.964,2.78-19.02,7.844
+			L7.852,328.265C2.788,333.333,0,340.089,0,347.297c0,7.208,2.784,13.968,7.852,19.032l16.124,16.124
+			c5.064,5.064,11.824,7.86,19.032,7.86s13.964-2.796,19.032-7.86l183.852-183.852l184.056,184.064
+			c5.064,5.06,11.82,7.852,19.032,7.852c7.208,0,13.96-2.792,19.028-7.852l16.128-16.132
+			C494.624,356.041,494.624,338.965,484.136,328.473z" />
+         </symbol>
       </svg>
       <header class="header">
          <div class="header__content">
@@ -129,6 +136,7 @@
                   <div class="intro__subtitle">Lorem ipsum dolor sit amet, consectetur</div>
                   <a href="#" class="intro__btn btn">Get in touch</a>
                </div>
+
             </div>
          </section>
          <section class="wellcome">
@@ -138,7 +146,7 @@
                      <div class="booking-img">
                         <picture>
                            <source srcset="img/intro/online_booking_img.webp" type="image/webp">
-                           <img src="img/intro/online_booking_img.jpg" alt="">
+                           <img rc="img/intro/online_booking_img.jpg" alt="">
                         </picture>
                      </div>
                      <form action="#" method="GET" class="booking-form">
@@ -370,6 +378,11 @@
                   <a href="#" class="media-item__btn btn">Get in touch</a>
                </div>
             </div>
+         </div>
+         <div class="page__btn-up">
+            <svg>
+               <use xlink:href="#up-arrow"></use>
+            </svg>
          </div>
       </main>
       <footer class="footer">
